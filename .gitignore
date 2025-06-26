@@ -1,0 +1,54 @@
+# 🌟 Java class files
+*.class
+
+# 💥 Log files
+*.log
+
+# 🧪 Temporary files
+*.tmp
+*.swp
+
+# 🚀 Build directories
+/bin/
+/build/
+/target/
+
+# 🏗️ Gradle files
+.gradle/
+/build/
+
+# 🧰 Maven
+.mvn/
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# ⚙️ Eclipse IDE files
+.classpath
+.project
+.settings/
+
+# 💻 IntelliJ IDEA
+*.iml
+.idea/
+out/
+
+# 🌈 VS Code
+.vscode/
+
+# 🪄 MacOS
+.DS_Store
+
+# BlueJ files
+*.ctxt
+
+# 🔐 Secret files
+*.key
+*.pem
+*.jks
+
+# 💣 Other system junk
+Thumbs.db
