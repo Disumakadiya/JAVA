@@ -1,6 +1,6 @@
-package practice_programs;
+package patterns;
 
-public class pattern
+public class Pattern1
 {
     public static void main(String[] args)
     {
