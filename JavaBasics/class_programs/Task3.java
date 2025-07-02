@@ -1,29 +1,36 @@
-import java.mathlibrary;
-
-public class Bank{
-    float rate=2;
+ class Bank {
+    float rate = 2;
 }
-public class  Branch extends Bank
-{
-    int n=5;
-    int t=3;
-    Branch(int rate)
-    {
-    superb (r);
+
+class Branch extends Bank {
+    int n;
+    int t;
+
+    Branch(float rate, int n, int t) {
+        this.rate = rate;
+        this.n = n;
+        this.t = t;
+    }
+}
+
+class Client extends Branch {
+    float A;
+    int p = 10000;
+
+    Client(int n, int t, float rate) {
+        super(rate, n, t);
     }
 
-}
-public class client public extends Branch
-{
-     float A;
-     int p=10,000;
-     client(int n,int t,float rate)
-     {
-       superb(r,n,t);
-     }
+    void calculate() {
+        // Compound Interest: A = P * (1 + r/n)^(nt)
+        A = (float)(p * Math.pow((1 + rate / n), (n * t)));
+        System.out.println("The amount is: " + A);
+    }
 }
 
-public class Task3 
-{
-
+public class Task3 {
+    public static void main(String[] args) {
+        Client c = new Client(5, 3, 2);
+        c.calculate();
+    }
 }
