@@ -15,7 +15,7 @@ public class Pattern8 {
                 for (int j = 0; j < rows - i; j++)
                 {
                     System.out.print(alpha + " ");
-                    alpha--;
+                    alpha--;    
                 }
                 System.out.println();
                 alpha = (char) ('Z' - i - 1);
