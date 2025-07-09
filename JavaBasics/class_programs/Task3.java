@@ -1,3 +1,5 @@
+ package class_programs;
+ 
  class Bank {
     float rate = 2;
 }
