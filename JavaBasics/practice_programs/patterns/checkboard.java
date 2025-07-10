@@ -13,8 +13,8 @@ public class checkboard
         for (int i=1; i<=n;i++) 
         {
             for (int j = 1; j <= n; j++)
-             {
-                if ((i + j)%2==0)//alternate row column odd=0 and even =1
+             {             
+                  if ((i + j)%2==0)//alternate row column odd=0 and even =1
                     System.out.print("1 ");
                 else
                     System.out.print("0 ");
