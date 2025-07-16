@@ -1,7 +1,7 @@
 package practical;
 import java.util.Scanner;
 
-public class pr1 {
+class pr1 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
