@@ -1,15 +1,15 @@
-package practical;
+package clg_programs.practical;
 import java.util.Scanner;
 
-public class pr1 {
+class pr1_1{
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Employee Management System");
         System.out.println("Enter the number of employees: ");
         int n = sc.nextInt();
-        file1 count = new file1();
-        file1[] emp = new file1[n];
+        file1_1 count = new file1_1();
+        file1_1[] emp = new file1_1[n];
         for (int i = 0; i < n; i++) 
         {
             System.out.println("\nEnter the details of employee " + (i + 1) + ":");
@@ -28,7 +28,7 @@ public class pr1 {
             double salary = sc.nextDouble();
             sc.nextLine(); // consume newline
 
-            emp[i] = new file1(id, name, department, salary);
+            emp[i] = new file1_1(id, name, department, salary);
         }
 
         System.out.println("\nEmployee Details:");

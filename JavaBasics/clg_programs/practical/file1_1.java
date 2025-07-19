@@ -1,6 +1,6 @@
-package practical;
+package clg_programs.practical;
 
-class file1 {
+class file1_1{
 
     public int ID;
     public String name;
@@ -9,7 +9,7 @@ class file1 {
 
     static int count_emply = 0;
 
-    public file1() {
+    public file1_1() {
         this.ID = 0;
         this.name = "not given";
         this.department = "not specified";
@@ -19,7 +19,7 @@ class file1 {
         // System.out.println("Default constructor called!\n");
     }
 
-    public file1(int ID, String name, String department, double salary) {
+    public file1_1(int ID, String name, String department, double salary) {
         this();
         this.ID = ID;
         this.name = name;
