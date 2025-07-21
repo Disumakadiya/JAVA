@@ -70,7 +70,7 @@ class Student {
 }
 
 
-public class pr1_2 {
+ class pr1_2 {
     public static void main(String[] args) {
         Student s1 = new Student("Disu", 101, 8.5);
         Student s2 = new Student("Pushti", 102, 7.9);
