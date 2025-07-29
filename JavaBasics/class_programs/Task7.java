@@ -1,4 +1,4 @@
-package class_programs;
+// package class_programs;
 
 interface A
 { 
@@ -19,7 +19,7 @@ interface D extends B,C
 }
 
 class E implements D{
-    private int a ;
+    private int a;
     private float b;
     private double c;
     private long d;
