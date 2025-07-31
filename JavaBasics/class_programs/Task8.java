@@ -1,6 +1,7 @@
 // package class_programs;
 
-class ThreadCreation implements Runnable {
+class ThreadCreation implements Runnable
+{
     ThreadCreation() {}
     public void run(){
         try {
@@ -20,7 +21,7 @@ public class Task8 {
     public static void main(String[] args) {
         ThreadCreation myThread = new ThreadCreation();
         Thread myThread1= new Thread(myThread);
-        // myThread.setName("Disuv                                                                                                                                                                                                                                                                                               ");
+        // myThread.setName("Disu");                                                                                                                                                                                                                                                                                             ");
         System.err.println(myThread);
         myThread1.start();
         System.out.println(Thread.currentThread().getName() + " Currently in " + myThread1.getState());
