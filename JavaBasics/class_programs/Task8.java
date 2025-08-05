@@ -11,6 +11,7 @@ class ThreadCreation implements Runnable
         }
         catch (InterruptedException ex) {
             ex.printStackTrace();
+            
         }
         System.out.println("In run method; thread name is :: "+ Thread.currentThread().getName());
     }
