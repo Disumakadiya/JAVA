@@ -1,6 +1,6 @@
 package clg_programs;
 
-public class Institute 
+public class Institute implements Instudent
 {
     int icode;
     public static String iname = null;
@@ -22,10 +22,12 @@ public class Institute
         System.out.println("Institute created with name: " + iname);
     }
     
-    void display() 
+    public void display() 
     {
         System.out.println("Institute Code: " + icode);
         System.out.println("Institute Name: " + iname);
         System.out.println("Location: " + location);
     }
+
+    public void SetName(String name);
 }

@@ -15,6 +15,7 @@ public class Main2
         System.out.println("\n1. Creating Student1 with default constructor:");
         Student student1 = new Student();
         student1.displayStudent();
+        student1.SetName("Disu");
         
         // Testing Faculty class constructor chaining
         System.out.println("\n=== Faculty Constructor Chaining ===");
