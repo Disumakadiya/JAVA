@@ -1,6 +1,7 @@
 package clg_programs;
 
-public class Student extends Institute {
+public class Student extends Institute 
+{
     String sID;
     String sName;
     String sem;
@@ -31,7 +32,7 @@ public class Student extends Institute {
         this.sem = sem;
     }
     
-    void displayStudent() {
+    public void displayStudent() {
         System.out.println("Student ID: " + sID);
         System.out.println("Student Name: " + sName);
         System.out.println("Semester: " + sem);
