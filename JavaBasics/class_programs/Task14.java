@@ -13,17 +13,23 @@ public class Task14 {
         int age = sc.nextInt();
 
         try {
-            if (age < 16) {
+            if (age < 16)
+             {
+                throw new myexce("No eligible for license");
+            }
+             else if (age > 60) 
+            {
                 throw new myexce("No need for license");
-            } else if (age > 60) {
-                throw new myexce("No need for license");
-            } else {  // between 16 and 60
-                throw new myexce("Need for volunteer");
+            } else 
+            {  // between 16 and 60
+                throw new myexce("license is mandatory");
             }
         } catch (myexce e) {
             System.out.println("Exception caught: " + e.getMessage());
+        }finally{
+            sc.close();
         }
-
+            
         sc.close();
     }
 }
